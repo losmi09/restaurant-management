@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="/css/signup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a class="sign-in">SIGN IN</a>
+        <a href="/users/signup" class="sign-up">SIGN UP</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="error-msg">
+        <% if (error) { %>
+        <p><%= error %></p>
+        <% } %>
+      </div>
+      <div class="form-div">
+        <form action="/users/signup" method="post">
+          <h1>Create Your Account</h1>
+          <input type="text" placeholder="name" name="name" />
+          <input type="text" placeholder="email" name="email" />
+          <input type="text" placeholder="password" name="password" />
+          <input
+            type="text"
+            placeholder="passwordConfirm"
+            name="passwordConfirm"
+          />
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

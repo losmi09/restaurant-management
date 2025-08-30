@@ -1,0 +1,506 @@
+[
+  {
+    "name": "Bruschetta",
+    "description": "Grilled bread with tomato, basil, and olive oil.",
+    "category": "68a93bd340fc1a43f5f0727c",
+    "price": 5.5,
+    "stock": 50,
+    "ingredients": ["bread", "tomato", "basil", "olive oil", "garlic"],
+    "extras": ["parmesan", "balsamic glaze"],
+    "preparationTime": 10
+  },
+  {
+    "name": "Stuffed Mushrooms",
+    "description": "Mushrooms stuffed with cheese and herbs.",
+    "category": "68a93bd340fc1a43f5f0727c",
+    "price": 6,
+    "stock": 40,
+    "ingredients": ["mushrooms", "cheese", "breadcrumbs", "herbs"],
+    "extras": ["extra cheese"],
+    "preparationTime": 12
+  },
+  {
+    "name": "Garlic Bread",
+    "description": "Classic garlic bread with butter and parsley.",
+    "category": "68a93bd340fc1a43f5f0727c",
+    "price": 4,
+    "stock": 60,
+    "ingredients": ["bread", "butter", "garlic", "parsley"],
+    "extras": ["cheese topping"],
+    "preparationTime": 8
+  },
+  {
+    "name": "Caprese Skewers",
+    "description": "Cherry tomatoes, mozzarella, and basil on skewers.",
+    "category": "68a93bd340fc1a43f5f0727c",
+    "price": 5,
+    "stock": 45,
+    "ingredients": ["tomato", "mozzarella", "basil", "olive oil"],
+    "extras": ["balsamic drizzle"],
+    "preparationTime": 7
+  },
+  {
+    "name": "Spring Rolls",
+    "description": "Crispy rolls filled with vegetables.",
+    "category": "68a93bd340fc1a43f5f0727c",
+    "price": 5,
+    "stock": 50,
+    "ingredients": ["cabbage", "carrot", "spring roll wrapper"],
+    "extras": ["sweet chili sauce"],
+    "preparationTime": 15
+  },
+  {
+    "name": "Chicken Wings",
+    "description": "Spicy baked chicken wings.",
+    "category": "68a93bd340fc1a43f5f0727c",
+    "price": 7,
+    "stock": 35,
+    "ingredients": ["chicken", "hot sauce", "spices"],
+    "extras": ["ranch dressing"],
+    "preparationTime": 20
+  },
+  {
+    "name": "Mini Quiches",
+    "description": "Bite-sized quiches with assorted fillings.",
+    "category": "68a93bd340fc1a43f5f0727c",
+    "price": 6,
+    "stock": 40,
+    "ingredients": ["eggs", "cream", "cheese", "spinach"],
+    "extras": ["extra cheese"],
+    "preparationTime": 18
+  },
+  {
+    "name": "Deviled Eggs",
+    "description": "Classic deviled eggs with paprika topping.",
+    "category": "68a93bd340fc1a43f5f0727c",
+    "price": 4.5,
+    "stock": 55,
+    "ingredients": ["eggs", "mayonnaise", "mustard", "paprika"],
+    "extras": ["chives"],
+    "preparationTime": 12
+  },
+  {
+    "name": "Cheese Platter",
+    "description": "Assorted cheeses served with crackers.",
+    "category": "68a93bd340fc1a43f5f0727c",
+    "price": 10,
+    "stock": 30,
+    "ingredients": ["cheese assortment", "crackers", "grapes"],
+    "extras": ["honey"],
+    "preparationTime": 5
+  },
+  {
+    "name": "Olive Tapenade",
+    "description": "Blended olives with herbs, served with bread.",
+    "category": "68a93bd340fc1a43f5f0727c",
+    "price": 5,
+    "stock": 50,
+    "ingredients": ["olives", "garlic", "olive oil", "herbs"],
+    "extras": ["toasted bread"],
+    "preparationTime": 8
+  },
+
+  {
+    "name": "Grilled Salmon",
+    "description": "Salmon fillet grilled to perfection with herbs.",
+    "category": "68a93c1440fc1a43f5f07281",
+    "price": 18,
+    "stock": 25,
+    "ingredients": ["salmon", "lemon", "herbs", "olive oil"],
+    "extras": ["garlic butter"],
+    "preparationTime": 25
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta with eggs, cheese, and pancetta.",
+    "category": "68a93c1440fc1a43f5f07281",
+    "price": 12,
+    "stock": 40,
+    "ingredients": ["spaghetti", "eggs", "parmesan", "pancetta"],
+    "extras": ["extra cheese"],
+    "preparationTime": 20
+  },
+  {
+    "name": "Beef Steak",
+    "description": "Juicy beef steak cooked to your liking.",
+    "category": "68a93c1440fc1a43f5f07281",
+    "price": 20,
+    "stock": 30,
+    "ingredients": ["beef", "salt", "pepper", "butter"],
+    "extras": ["mushroom sauce"],
+    "preparationTime": 30
+  },
+  {
+    "name": "Chicken Alfredo",
+    "description": "Creamy pasta with grilled chicken and parmesan.",
+    "category": "68a93c1440fc1a43f5f07281",
+    "price": 14,
+    "stock": 35,
+    "ingredients": ["chicken", "fettuccine", "cream", "parmesan"],
+    "extras": ["extra sauce"],
+    "preparationTime": 22
+  },
+  {
+    "name": "Vegetable Stir Fry",
+    "description": "Assorted vegetables stir-fried with soy sauce.",
+    "category": "68a93c1440fc1a43f5f07281",
+    "price": 11,
+    "stock": 50,
+    "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce"],
+    "extras": ["tofu"],
+    "preparationTime": 18
+  },
+  {
+    "name": "Lamb Chops",
+    "description": "Grilled lamb chops with rosemary and garlic.",
+    "category": "68a93c1440fc1a43f5f07281",
+    "price": 22,
+    "stock": 20,
+    "ingredients": ["lamb", "rosemary", "garlic", "olive oil"],
+    "extras": ["mint sauce"],
+    "preparationTime": 28
+  },
+  {
+    "name": "Seafood Paella",
+    "description": "Spanish rice dish with assorted seafood.",
+    "category": "68a93c1440fc1a43f5f07281",
+    "price": 19,
+    "stock": 25,
+    "ingredients": ["rice", "shrimp", "mussels", "saffron"],
+    "extras": ["lemon wedges"],
+    "preparationTime": 35
+  },
+  {
+    "name": "Margherita Pizza",
+    "description": "Classic pizza with tomato, mozzarella, and basil.",
+    "category": "68a93c1440fc1a43f5f07281",
+    "price": 10,
+    "stock": 45,
+    "ingredients": ["dough", "tomato", "mozzarella", "basil"],
+    "extras": ["extra cheese"],
+    "preparationTime": 15
+  },
+  {
+    "name": "Beef Burger",
+    "description": "Juicy beef patty with lettuce, tomato, and cheese.",
+    "category": "68a93c1440fc1a43f5f07281",
+    "price": 12,
+    "stock": 50,
+    "ingredients": ["beef", "bun", "lettuce", "tomato", "cheese"],
+    "extras": ["bacon", "fries"],
+    "preparationTime": 20
+  },
+  {
+    "name": "Chicken Curry",
+    "description": "Spicy chicken curry with aromatic spices.",
+    "category": "68a93c1440fc1a43f5f07281",
+    "price": 13,
+    "stock": 40,
+    "ingredients": ["chicken", "onion", "tomato", "spices"],
+    "extras": ["naan bread"],
+    "preparationTime": 25
+  },
+
+  {
+    "name": "Chocolate Cake",
+    "description": "Rich chocolate cake with ganache topping.",
+    "category": "68a93c2640fc1a43f5f07284",
+    "price": 6,
+    "stock": 35,
+    "ingredients": ["flour", "cocoa", "sugar", "eggs", "butter"],
+    "extras": ["ice cream"],
+    "preparationTime": 30
+  },
+  {
+    "name": "Cheesecake",
+    "description": "Creamy cheesecake with a graham cracker crust.",
+    "category": "68a93c2640fc1a43f5f07284",
+    "price": 6.5,
+    "stock": 30,
+    "ingredients": ["cream cheese", "sugar", "eggs", "crust"],
+    "extras": ["berry sauce"],
+    "preparationTime": 35
+  },
+  {
+    "name": "Tiramisu",
+    "description": "Classic Italian dessert with coffee and mascarpone.",
+    "category": "68a93c2640fc1a43f5f07284",
+    "price": 7,
+    "stock": 25,
+    "ingredients": ["mascarpone", "coffee", "ladyfingers", "cocoa"],
+    "extras": ["chocolate shavings"],
+    "preparationTime": 40
+  },
+  {
+    "name": "Fruit Salad",
+    "description": "Fresh seasonal fruits served chilled.",
+    "category": "68a93c2640fc1a43f5f07284",
+    "price": 5,
+    "stock": 40,
+    "ingredients": ["apple", "orange", "grapes", "melon"],
+    "extras": ["mint leaves"],
+    "preparationTime": 10
+  },
+  {
+    "name": "Ice Cream Sundae",
+    "description": "Vanilla ice cream with chocolate sauce and nuts.",
+    "category": "68a93c2640fc1a43f5f07284",
+    "price": 5.5,
+    "stock": 50,
+    "ingredients": ["vanilla ice cream", "chocolate sauce", "nuts"],
+    "extras": ["whipped cream", "cherry"],
+    "preparationTime": 5
+  },
+  {
+    "name": "Brownie",
+    "description": "Chocolate brownie with a fudgy center.",
+    "category": "68a93c2640fc1a43f5f07284",
+    "price": 4.5,
+    "stock": 45,
+    "ingredients": ["chocolate", "butter", "sugar", "flour", "eggs"],
+    "extras": ["ice cream"],
+    "preparationTime": 25
+  },
+  {
+    "name": "Creme Brulee",
+    "description": "Creamy custard topped with caramelized sugar.",
+    "category": "68a93c2640fc1a43f5f07284",
+    "price": 7,
+    "stock": 20,
+    "ingredients": ["cream", "eggs", "sugar", "vanilla"],
+    "extras": ["berries"],
+    "preparationTime": 30
+  },
+  {
+    "name": "Panna Cotta",
+    "description": "Italian dessert made with sweetened cream.",
+    "category": "68a93c2640fc1a43f5f07284",
+    "price": 6,
+    "stock": 25,
+    "ingredients": ["cream", "sugar", "gelatin", "vanilla"],
+    "extras": ["berry coulis"],
+    "preparationTime": 25
+  },
+  {
+    "name": "Apple Pie",
+    "description": "Classic apple pie with cinnamon and sugar.",
+    "category": "68a93c2640fc1a43f5f07284",
+    "price": 5.5,
+    "stock": 30,
+    "ingredients": ["apple", "flour", "butter", "sugar", "cinnamon"],
+    "extras": ["vanilla ice cream"],
+    "preparationTime": 40
+  },
+  {
+    "name": "Chocolate Mousse",
+    "description": "Light and airy chocolate dessert.",
+    "category": "68a93c2640fc1a43f5f07284",
+    "price": 6.5,
+    "stock": 20,
+    "ingredients": ["chocolate", "cream", "sugar", "eggs"],
+    "extras": ["whipped cream"],
+    "preparationTime": 20
+  },
+
+  {
+    "name": "Lemonade",
+    "description": "Refreshing lemonade with fresh lemons.",
+    "category": "68a93c3240fc1a43f5f07287",
+    "price": 3,
+    "stock": 100,
+    "ingredients": ["lemon", "water", "sugar"],
+    "extras": ["mint leaves"],
+    "preparationTime": 5
+  },
+  {
+    "name": "Iced Tea",
+    "description": "Chilled black tea with lemon.",
+    "category": "68a93c3240fc1a43f5f07287",
+    "price": 3,
+    "stock": 80,
+    "ingredients": ["tea", "lemon", "sugar"],
+    "extras": ["ice cubes"],
+    "preparationTime": 5
+  },
+  {
+    "name": "Cappuccino",
+    "description": "Espresso with steamed milk and foam.",
+    "category": "68a93c3240fc1a43f5f07287",
+    "price": 4,
+    "stock": 50,
+    "ingredients": ["espresso", "milk", "foam"],
+    "extras": ["cinnamon"],
+    "preparationTime": 5
+  },
+  {
+    "name": "Orange Juice",
+    "description": "Freshly squeezed orange juice.",
+    "category": "68a93c3240fc1a43f5f07287",
+    "price": 3.5,
+    "stock": 90,
+    "ingredients": ["orange"],
+    "extras": ["ice cubes"],
+    "preparationTime": 5
+  },
+  {
+    "name": "Smoothie",
+    "description": "Fruit smoothie with yogurt and honey.",
+    "category": "68a93c3240fc1a43f5f07287",
+    "price": 5,
+    "stock": 60,
+    "ingredients": ["banana", "strawberry", "yogurt", "honey"],
+    "extras": ["chia seeds"],
+    "preparationTime": 7
+  },
+  {
+    "name": "Coffee",
+    "description": "Freshly brewed coffee.",
+    "category": "68a93c3240fc1a43f5f07287",
+    "price": 2.5,
+    "stock": 100,
+    "ingredients": ["coffee beans", "water"],
+    "extras": ["milk", "sugar"],
+    "preparationTime": 5
+  },
+  {
+    "name": "Hot Chocolate",
+    "description": "Warm chocolate drink with milk.",
+    "category": "68a93c3240fc1a43f5f07287",
+    "price": 4,
+    "stock": 50,
+    "ingredients": ["cocoa", "milk", "sugar"],
+    "extras": ["whipped cream"],
+    "preparationTime": 5
+  },
+  {
+    "name": "Herbal Tea",
+    "description": "Relaxing tea made from herbs.",
+    "category": "68a93c3240fc1a43f5f07287",
+    "price": 3,
+    "stock": 70,
+    "ingredients": ["herbs", "water"],
+    "extras": ["honey", "lemon"],
+    "preparationTime": 5
+  },
+  {
+    "name": "Sparkling Water",
+    "description": "Carbonated water served chilled.",
+    "category": "68a93c3240fc1a43f5f07287",
+    "price": 2.5,
+    "stock": 100,
+    "ingredients": ["carbonated water"],
+    "extras": ["lemon slice"],
+    "preparationTime": 1
+  },
+  {
+    "name": "Milkshake",
+    "description": "Creamy milkshake with your choice of flavor.",
+    "category": "68a93c3240fc1a43f5f07287",
+    "price": 5,
+    "stock": 60,
+    "ingredients": ["milk", "ice cream", "flavoring"],
+    "extras": ["whipped cream"],
+    "preparationTime": 7
+  },
+
+  {
+    "name": "Greek Salad",
+    "description": "Fresh vegetables with feta cheese and olives.",
+    "category": "68a93c3e40fc1a43f5f0728a",
+    "price": 8,
+    "stock": 40,
+    "ingredients": ["cucumber", "tomato", "onion", "feta", "olives"],
+    "extras": ["olive oil", "oregano"],
+    "preparationTime": 10
+  },
+  {
+    "name": "Caesar Salad",
+    "description": "Romaine lettuce with Caesar dressing and croutons.",
+    "category": "68a93c3e40fc1a43f5f0728a",
+    "price": 9,
+    "stock": 35,
+    "ingredients": ["lettuce", "croutons", "parmesan", "dressing"],
+    "extras": ["grilled chicken"],
+    "preparationTime": 12
+  },
+  {
+    "name": "Quinoa Salad",
+    "description": "Quinoa with vegetables and lemon dressing.",
+    "category": "68a93c3e40fc1a43f5f0728a",
+    "price": 9.5,
+    "stock": 30,
+    "ingredients": ["quinoa", "tomato", "cucumber", "lemon", "olive oil"],
+    "extras": ["avocado"],
+    "preparationTime": 15
+  },
+  {
+    "name": "Fruit & Nut Salad",
+    "description": "Mixed fruits with nuts and yogurt dressing.",
+    "category": "68a93c3e40fc1a43f5f0728a",
+    "price": 8.5,
+    "stock": 35,
+    "ingredients": ["apple", "orange", "nuts", "yogurt"],
+    "extras": ["honey"],
+    "preparationTime": 10
+  },
+  {
+    "name": "Spinach Salad",
+    "description": "Fresh spinach with cherry tomatoes and vinaigrette.",
+    "category": "68a93c3e40fc1a43f5f0728a",
+    "price": 8,
+    "stock": 40,
+    "ingredients": ["spinach", "cherry tomato", "olive oil", "vinegar"],
+    "extras": ["feta cheese"],
+    "preparationTime": 8
+  },
+  {
+    "name": "Avocado Toast",
+    "description": "Whole-grain toast topped with smashed avocado.",
+    "category": "68a93c3e40fc1a43f5f0728a",
+    "price": 7,
+    "stock": 45,
+    "ingredients": ["bread", "avocado", "lemon", "salt"],
+    "extras": ["chili flakes"],
+    "preparationTime": 5
+  },
+  {
+    "name": "Kale Salad",
+    "description": "Fresh kale with roasted nuts and citrus dressing.",
+    "category": "68a93c3e40fc1a43f5f0728a",
+    "price": 9,
+    "stock": 30,
+    "ingredients": ["kale", "nuts", "orange", "olive oil"],
+    "extras": ["parmesan"],
+    "preparationTime": 12
+  },
+  {
+    "name": "Chicken Salad",
+    "description": "Grilled chicken with mixed greens and vinaigrette.",
+    "category": "68a93c3e40fc1a43f5f0728a",
+    "price": 10,
+    "stock": 35,
+    "ingredients": ["chicken", "lettuce", "tomato", "cucumber", "olive oil"],
+    "extras": ["avocado"],
+    "preparationTime": 15
+  },
+  {
+    "name": "Caprese Salad",
+    "description": "Tomato, mozzarella, and basil with balsamic glaze.",
+    "category": "68a93c3e40fc1a43f5f0728a",
+    "price": 8,
+    "stock": 40,
+    "ingredients": ["tomato", "mozzarella", "basil", "olive oil"],
+    "extras": ["balsamic glaze"],
+    "preparationTime": 8
+  },
+  {
+    "name": "Roasted Veggie Bowl",
+    "description": "Assorted roasted vegetables with quinoa or rice.",
+    "category": "68a93c3e40fc1a43f5f0728a",
+    "price": 9,
+    "stock": 35,
+    "ingredients": ["zucchini", "carrot", "pepper", "quinoa", "olive oil"],
+    "extras": ["hummus"],
+    "preparationTime": 20
+  }
+]

@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+*::selection {
+  background-color: #55c57a;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 8.5vh;
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-family: Inter, Arial;
+}
+
+.sign-up {
+  color: #fff;
+  background-color: #444;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  border: 0.1rem solid #fff;
+  margin-right: 8rem;
+  margin-left: 3rem;
+  text-decoration: none;
+}
+
+.sign-in {
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: inherit;
+  border: none;
+  text-decoration: none;
+}
+
+.sign-in:hover {
+  transform: translateY(-0.5rem);
+  transition: 0.3s;
+}
+
+.sign-up:hover {
+  transform: translateY(-0.5rem);
+  transition: 0.3s;
+  background-color: #fff;
+  color: #444;
+}
+
+main {
+  background-color: #55c57a;
+  /* background: linear-gradient(to right, #000000, #434343); */
+  height: 91.5vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* font-size: 5rem; */
+  font-family: Inter, Arial;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+.error-msg {
+  height: 24vh;
+  display: flex;
+  font-size: 3rem;
+  align-items: center;
+}
+
+.form-div {
+  height: 90vh;
+}
+
+form {
+  background-color: hsl(140, 49%, 65%);
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+form h1 {
+  margin-bottom: 3rem;
+}
+
+form input {
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+  width: 40rem;
+  height: 5rem;
+  background-color: hsl(0, 0%, 90%);
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+form input:focus {
+  outline: 0.2rem solid #55c57a;
+}
+
+form button {
+  background-color: #55c57a;
+  color: #fff;
+  border: none;
+  padding: 1rem 5rem;
+  border-radius: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  transform: translateY(-0.5rem);
+  transition: 0.3s;
+}
